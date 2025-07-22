@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-STOWDIR="$HOME/Dotfiles"
+# Please modify STOWDIR, COREPKG, and RELOADSCRIPT as necessary
+
+STOWDIR="$HOME/Dotfiles" # Dotfiles directory
 STOWTARGET="$HOME"
-COREPKG="core"
-RELOADSCRIPT="$HOME/.config/hypr/scripts/reload.sh"
+COREPKG="core" # Name of core package
+RELOADSCRIPT="$HOME/.config/hypr/scripts/reload.sh" # Your reload.sh
 
 pkglist="$(ls -d $STOWDIR/*/ | awk -F/ '{print $(NF-1)}' | grep -v ^$COREPKG$)"
   # get all packages formatted without / or leading directories, excluding core
