@@ -1,6 +1,6 @@
 # Dotswap
 
-dotswap.sh is a script to manage dotfiles using gnu stow and a simple neat rofi menu.
+dotswap.sh is a script to manage dotfiles using gnu stow and a simple neat rofi menu.<br/>
 reload.sh is a machine specific script to reload all related config files to apply them neatly. (Mine was created for my hyprland system)
 
 ## Note
@@ -22,7 +22,7 @@ Your dotfiles directory (dotswap defaults to ~/Dotfiles) should contain:
 
 ![Directory Layout](assets/dotfiles-directory-example.png)
 
-In the above example, the .config directory is entirely generated from the script
+In the above example, the .config directory is entirely generated from the script<br/>
 Each package (as described by stow, in this example core, theme1, etc) is its own home directory with a .config directory and whatever else you want to change between themes 
 
 ## Tips
