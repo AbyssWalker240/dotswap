@@ -3,7 +3,12 @@
 dotswap.sh is a script to manage dotfiles using gnu stow and a simple neat rofi menu.<br/>
 reload.sh is a machine specific script to reload all related config files to apply them neatly. (Mine was created for my hyprland system)
 
-## Dependancies
+
+
+
+<video width="688" height="288" src="https://github.com/user-attachments/assets/e444a10c-c11f-4ff0-9e3c-890c979e4191"></video>
+
+## Dependencies
 
 * stow
 * rofi
