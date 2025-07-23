@@ -41,3 +41,7 @@ Each package (as described by stow, in this example core, theme1, etc) is its ow
 * **VERSION CONTROL!!!** Make your ~/Dotfiles directory a git repo, this provides backups and an easy way to restore your **entire** configuration onto a new machine
 * have a .zshrc in *core* and a .zsh_prompt in each theme, and source the .zsh_prompt in the .zshrc
 * in a wm, have stylistic configurations in each theme, and a binds/general config in *core*
+
+## Contributing
+
+Contributions welcome! Feel free to improve the script or readme in any way you see helpful, please describe your changes in your pull request!
