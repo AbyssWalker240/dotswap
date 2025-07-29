@@ -22,6 +22,7 @@ These will need some slight customization to work on your system.
     * name/location of dotfiles directory (default '~/Dotfiles')
     * name/location of reload.sh (default '~/.config/hypr/scripts/reload.sh')
     * name of persistant core package (default 'core')
+        * this one is optional, but if unused I recommend just creating an empty folder to avoid weird errors
 * I would recommend creating your own reload.sh based on the tools you use.
 
 ## Dotfiles directory layout
